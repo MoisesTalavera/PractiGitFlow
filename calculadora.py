@@ -14,12 +14,14 @@ def calculadora():
     print("_________________________________")
     numero1= float(input("ingrese el primer numero: "))
     numero2= float(input("ingrese el segundo numero: "))
-
     if(opcion==1):
         return suma(numero1,numero2)
-    else:
+    elif(opcion==2):
         return resta( numero1,numero2)
 
     
-resultado= calculadora()
+    
+
+    
+resultado = calculadora()
 print("valor optenido:",resultado)
