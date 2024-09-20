@@ -18,6 +18,9 @@ def calculadora():
         return suma(numero1,numero2)
     elif(opcion==2):
         return resta( numero1,numero2)
+    else:
+        print("opcion no valida")
+        return 0 
 
     
     
