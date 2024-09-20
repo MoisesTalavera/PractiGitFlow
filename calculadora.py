@@ -19,7 +19,7 @@ def calculadora():
     elif(opcion==2):
         return resta( numero1,numero2)
     else:
-        print("opcion no valida")
+        print("opcion no encontrada")
         return 0 
 
     
